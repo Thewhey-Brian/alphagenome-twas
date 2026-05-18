@@ -10,8 +10,8 @@ Xinyu Guo, Liang Chen — University of Southern California.
 
 > Guo X. & Chen L. Sequence-based regulatory prediction with AlphaGenome complements TWAS for GWAS gene prioritization beyond eQTL-model coverage. *In submission* (2026).
 
-Code release: DOI to be minted via Zenodo–GitHub integration on the first tagged release.
-Data release: [10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)
+- Code release: [10.5281/zenodo.20277441](https://doi.org/10.5281/zenodo.20277441) (concept DOI; v1.0.0 = 10.5281/zenodo.20277442)
+- Data release: [10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235) (concept DOI; always resolves to the latest version)
 
 ## TL;DR
 
@@ -20,7 +20,7 @@ Transcriptome-wide association studies (TWAS) are constrained to genes with trai
 ## Key findings
 
 1. **AlphaGenome predictions are confidence-calibrated.** Sign concordance with GTEx eQTL effects rises from chance (51%) at low magnitude to 92% at high-confidence predictions, giving practitioners a magnitude-based reliability filter (|LFC| ≥ 0.01).
-2. **AlphaGenome and TWAS are orthogonal.** Despite enriched discovery-level overlap (OR = 3.19, Fisher p < 10⁻³⁰⁰), gene rankings (median ρ ≈ 0.049) and tissue-of-action assignments (25.9% vs 26.5% chance) disagree.
+2. **AlphaGenome and TWAS are orthogonal.** Despite enriched discovery-level overlap (OR = 3.19, Fisher p < 10⁻³⁰⁰), gene rankings disagree (median Spearman ρ ≈ 0.049).
 3. **AlphaGenome expands coverage.** Scores 51,335 genes vs 27,671 for TWAS; 26,575 genes are AG-exclusive, predominantly lncRNAs (36%) and pseudogenes (32%).
 4. **AG-exclusive genes carry biological signal.** Enriched ~1.4× for OpenTargets non-GWAS disease evidence; TWAS-only genes show no such enrichment. Case studies at *CDKN2B-AS1*, *PTENP1*, and *HOTAIR* illustrate the gain.
 
