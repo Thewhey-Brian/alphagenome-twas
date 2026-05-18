@@ -39,35 +39,6 @@ Transcriptome-wide association studies (TWAS) are constrained to genes with trai
 
 ![Figure 5](figures/fig5_case_studies.png)
 
-## Repository layout
-
-```
-analysis/
-  persnp_vs_gtex/      AG calibration vs GTEx eQTLs              → Fig 1
-  persnp_vs_joint/     Per-SNP vs joint AG scoring               → Fig 2
-  tissue_specificity/  τ tissue specificity, AG vs GTEx          → Fig 3
-  ag_twas/             AG vs TWAS: concordance, validation,
-                       sig-groups, tissue-of-action              → Fig 4
-manuscript/
-  fig{1..5}_*.py       Figure-generating scripts
-  fig_style.py         Shared matplotlib style
-figures/               Final PNG renders (linked above)
-```
-
-Each `analysis/<module>/` contains:
-- `analyze*.py` — compute intermediates from the merged AG–TWAS parquet
-- `plot_*.py` — render per-panel diagnostics
-- `plot_combined.py` — module-level multi-panel figure
-
-## Usage
-
-```bash
-export AG_LD_ROOT=/path/to/data
-python analysis/<module>/analyze.py        # produces intermediate CSVs / parquets
-python manuscript/fig<N>_*.py              # renders the final figure
-```
-
-Intermediate data tables, the merged AG–TWAS parquet, AlphaGenome per-SNP score tables, and SuSiE credible sets are released on Zenodo: **[10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)** (concept DOI; always resolves to the latest version).
 
 ## Citation
 
