@@ -22,6 +22,7 @@ env/
 *.parquet
 merged/
 data/
+!figures/*.png
 
 # Raw upstream pipelines — re-derived from public data
 gwas/
