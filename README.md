@@ -67,13 +67,14 @@ python analysis/<module>/analyze.py        # produces intermediate CSVs / parque
 python manuscript/fig<N>_*.py              # renders the final figure
 ```
 
-Intermediate data tables and the merged AG–TWAS parquet are released separately on Zenodo (**DOI pending**).
+Intermediate data tables, the merged AG–TWAS parquet, AlphaGenome per-SNP score tables, and SuSiE credible sets are released on Zenodo: **[10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)** (concept DOI; always resolves to the latest version).
 
 ## Citation
 
 > Guo X. & Chen L. Sequence-based regulatory prediction with AlphaGenome complements TWAS for GWAS gene prioritization beyond eQTL-model coverage. *In submission* (2026).
 
-DOI will be added on acceptance.
+Code release: DOI to be minted via Zenodo–GitHub integration on the first tagged release.
+Data release: [10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)
 
 ## Contact
 
