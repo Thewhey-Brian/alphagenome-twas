@@ -1,0 +1,39 @@
+# Caches & temp
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.DS_Store
+.cache/
+*.tmp
+*.bak
+*.pre_*
+
+# Editor
+.vscode/
+.idea/
+
+# Conda / virtualenv
+.venv/
+venv/
+env/
+
+# Data and large intermediates (deposited on Zenodo)
+*.parquet
+merged/
+data/
+
+# Raw upstream pipelines — re-derived from public data
+gwas/
+twas/
+susie/
+ldsc/
+haplotype_scores/
+validation_data/
+
+# Pre-submission drafts and archives
+_archive_v*/
+manuscript_XG_04*.docx
+manuscript_XG_0502*.docx
+manuscript_XG_0510.docx
+manuscript_XG_0510*.docx.*
