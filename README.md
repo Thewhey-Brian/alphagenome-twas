@@ -6,6 +6,13 @@ Xinyu Guo, Liang Chen — University of Southern California.
 
 ---
 
+## Citation
+
+> Guo X. & Chen L. Sequence-based regulatory prediction with AlphaGenome complements TWAS for GWAS gene prioritization beyond eQTL-model coverage. *In submission* (2026).
+
+Code release: DOI to be minted via Zenodo–GitHub integration on the first tagged release.
+Data release: [10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)
+
 ## TL;DR
 
 Transcriptome-wide association studies (TWAS) are constrained to genes with trainable cis-eQTL models, leaving most non-coding genes — lncRNAs, pseudogenes, miRNAs — outside the reach of GWAS gene prioritization. We use **AlphaGenome**, a sequence-based deep-learning regulatory model, as an orthogonal route. Across **43 complex traits**, **11,456 fine-mapped loci**, and **60,511 credible-set SNPs**, we show that AlphaGenome and TWAS capture **largely orthogonal signal**, and AlphaGenome extends prioritization to **26,575 genes invisible to TWAS** — many with independent disease evidence.
@@ -39,13 +46,6 @@ Transcriptome-wide association studies (TWAS) are constrained to genes with trai
 
 ![Figure 5](figures/fig5_case_studies.png)
 
-
-## Citation
-
-> Guo X. & Chen L. Sequence-based regulatory prediction with AlphaGenome complements TWAS for GWAS gene prioritization beyond eQTL-model coverage. *In submission* (2026).
-
-Code release: DOI to be minted via Zenodo–GitHub integration on the first tagged release.
-Data release: [10.5281/zenodo.20277235](https://doi.org/10.5281/zenodo.20277235)
 
 ## Contact
 
